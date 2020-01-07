@@ -120,7 +120,7 @@ class DailyCostTest < Test::Unit::TestCase
     end
   end
 
-  def test_error_raised_on_wrong_time_period
+  def test_error_raised_on_cost_not_greater_than_zero
     start_date = Date.new(2019, 10, 1)
     end_date = Date.new(2019, 10, 3)
 
